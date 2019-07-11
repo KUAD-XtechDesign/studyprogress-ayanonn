@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+body {
+  background-color: #eeeeee;
+  color: #444444;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+h3 { margin-bottom: 0px; }
+
+p { font-size: 10pt; }
+
+.general a:link { color: #ff00ff; }
+.general a:visited { color: #993399; }
+
+.first a:link { color: #00aaaa; }
+.first a:visited { color: #336666; }
+
+footer { font-size: 10pt; }
+
+.credit {
+  list-style:none;
+  margin-top: 0px;
+}
+
+.caption {
+  list-style:none;
+  font-size: 8pt;
+  margin-bottom: 10px;
+}
+
+.nonedot {
+  list-style:none;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+ }
+
+table th, table td{
+  border: solid 2px #444444;
+}
+
+.heading { background-color: #cccccc }
+
+.article { background-color: #dddddd }
+
+table ul { text-align: left;}
+
+.done { text-decoration: line-through;}
+
+.prettyprint ol.linenums > li {
+	list-style-type: decimal;
+}
