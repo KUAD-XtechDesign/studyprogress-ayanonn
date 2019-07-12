@@ -1,4 +1,14 @@
 html{
-  color: #000;
-  background: #fffS;
+  color: #333;
+  background: #fff;
+
+  font-size: 14px;
+  line-height: 1.8;
+
+}
+
+*{
+  margin: 0;
+  padding: :0;
+  box-sizing: border-box;
 }
