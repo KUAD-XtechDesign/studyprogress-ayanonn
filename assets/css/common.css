@@ -7,7 +7,7 @@ common
 * {
   -webkit-appearance:none;
 }
-body {
+/* body {
 	overflow: hidden;
 	}
 /* ---------------------------------------------------------
