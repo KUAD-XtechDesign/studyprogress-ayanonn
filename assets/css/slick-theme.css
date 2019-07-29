@@ -62,8 +62,8 @@
 .slick-next:focus:before
 {
     opacity: 1;
-	transform: scale(1.01);	/*画像の拡大率*/
-	transition-duration: 0.2s;	/*変化に掛かる時間*/	
+	transform: scale(1.01);	/*ç”»åƒã®æ‹¡å¤§çŽ‡*/
+	transition-duration: 0.2s;	/*å¤‰åŒ–ã«æŽ›ã‹ã‚‹æ™‚é–“*/	
 }
 .slick-prev.slick-disabled:before,
 .slick-next.slick-disabled:before
@@ -96,11 +96,11 @@
 }
 .slick-prev:before
 {
-    content: '←';	
+    content: 'â†';	
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: '→';
+    content: 'â†’';
 }
 
 .slick-next
@@ -114,11 +114,11 @@
 }
 .slick-next:before
 {
-    content: '→';
+    content: 'â†’';
 }
 [dir='rtl'] .slick-next:before
 {
-    content: '←';
+    content: 'â†';
 }
 
 /* Dots */
@@ -200,7 +200,7 @@
     height: 20px;
 	margin: 0 auto;
 
-    content: '•';
+    content: 'â€¢';
 
     opacity: .25;
     color: black;
